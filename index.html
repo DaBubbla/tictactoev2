@@ -9,32 +9,29 @@
     <script type="text/javascript" src="js/index.js"></script>
 </head>
     
-    <body class='body'>
-        <div class="spacer">TIC-TAC-TOE</div>
-        
-        <div class='row'>
-            <div class='col' data-i=0 data-j=0></div>
-            <div class='col' data-i=0 data-j=1></div>
-            <div class='col' data-i=0 data-j=2></div>
-        </div> 
-        
-        <div class='row'>
-            <div class='col' data-i=1 data-j=0></div>
-            <div class='col' data-i=1 data-j=1></div>
-            <div class='col' data-i=1 data-j=2></div>
-        </div>
-        
-        <div class='row'>
-            <div class='col' data-i=2 data-j=0></div>
-            <div class='col' data-i=2 data-j=1></div>
-            <div class='col' data-i=2 data-j=2></div>
-        </div> 
-        
-        <div>
-            <button id='restart'>Restart</button>
-        </div>
-        
-        <div class='col-md-12 text-center spacer' id='win'>Player 1 has WON the Game</div>
-        <div class='col-md-12 text-center spacer' id='HAL'>HAL has WON :(</div>
-
-    </body> 
+   <div class='container text-center'>
+  <a class='btn btn-primary' id='turnX'>Turn X</a>
+  <a class='btn btn-secondary' id='turnO'>Turn O</a>
+    
+  <div class='row'>
+      <div class='col-md-6'>
+        <a class='btn btn-primary tic' id='0'>#</a>
+        <a class='btn btn-primary tic' id='1'>#</a> 
+        <a class='btn btn-primary tic' id='2'>#</a> 
+      </div>
+  </div>
+ <div class='row'>
+      <div class='col-md-6'>
+        <a class='btn btn-primary tic' id='3'>#</a>
+        <a class='btn btn-primary tic' id='4'>#</a> 
+        <a class='btn btn-primary tic' id='5'>#</a> 
+      </div>
+  </div>
+ <div class='row'>
+      <div class='col-md-6'>
+        <a class='btn btn-primary tic' id='6'>#</a>
+        <a class='btn btn-primary tic' id='7'>#</a> 
+        <a class='btn btn-primary tic' id='8'>#</a> 
+      </div>
+  </div>
+</div>
